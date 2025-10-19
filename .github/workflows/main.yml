@@ -2,10 +2,10 @@ name: First workflow
 on: 
   push:
     branches:
-      -main
+      - main
 
 jobs:
-  example-jop:
+  example-job:
     runs-on: ubuntu-latest
     steps:
       - name: Print welcome message
