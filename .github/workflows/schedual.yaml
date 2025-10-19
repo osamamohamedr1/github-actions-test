@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  daily-task:
+    runs-on: ubuntu-latest
+    seteps:
+      - name: Print welcome
+        run: echo "welcome"  

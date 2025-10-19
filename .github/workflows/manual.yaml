@@ -1,0 +1,10 @@
+on:
+  work-dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    seteps:
+      - name: deploy app
+        run: echo "deploying app"
+
