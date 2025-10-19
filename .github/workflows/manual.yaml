@@ -1,10 +1,10 @@
+
 on:
-  work-dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    seteps:
+    steps:
       - name: deploy app
         run: echo "deploying app"
-
